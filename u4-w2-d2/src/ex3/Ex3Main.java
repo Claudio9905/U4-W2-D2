@@ -29,7 +29,7 @@ public class Ex3Main {
                     if(rubrica.aggiungiContatto(nomeContatto, numeroContatto)){
                         System.out.println("Contatto aggiunto");
                     }else{
-                        System.out.println("Contatto non salvato, prego riprovare");
+                        System.out.println("Contatto da salvare non trovato, prego riprovare");
                     }
                     break;
                 case 2:
@@ -39,7 +39,7 @@ public class Ex3Main {
                     if(rubrica.rimuoviContatto(contatto)){
                         System.out.println("Contatto rimosso");
                     } else{
-                        System.out.println("Contatto non rimosso, prego riprovare");
+                        System.out.println("Contatto da rimuovere non trovato, prego riprovare");
                     }
                     break;
                 case 3:
