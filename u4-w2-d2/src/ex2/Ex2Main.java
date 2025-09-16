@@ -24,7 +24,7 @@ public class Ex2Main {
         System.out.println("Lista con i vecchi valore e gli stessi ma invertiti " + oldReversList);
 
         //1.3
-        System.out.println("Inserisci un numero per stabilere il vero o falso: (0 - Falso) (1 - Vero)");
+        System.out.println("Inserisci un numero per visualizzare i valori nelle posizioni pari o nelle posizioni dispari: (0 - dispari) (1 - pari)");
         int scelta = Integer.parseInt(scanner.nextLine());
 
         switch (scelta){
