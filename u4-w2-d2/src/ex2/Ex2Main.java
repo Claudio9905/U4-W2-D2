@@ -38,7 +38,6 @@ public class Ex2Main {
     //1.1
     public static ArrayList<Integer> listaInteriCasuali(int N){
         Random rdmInteri = new Random();
-
         ArrayList<Integer> numRandom = new ArrayList<>();
         for(int i = 0; i<N;i++){
             numRandom.add(rdmInteri.nextInt(0,100 ));
