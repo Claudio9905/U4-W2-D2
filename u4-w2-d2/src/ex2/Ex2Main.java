@@ -10,7 +10,7 @@ public class Ex2Main {
 
         // 1
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Integer> numCasuali = new ArrayList<>();
+        ArrayList<Integer> numCasuali;
 
         //1.1
         System.out.println("Inserisci un valore per la dimensione: ");
@@ -19,7 +19,7 @@ public class Ex2Main {
         System.out.println("Lista di N interi casuali da  0 a 100: " + numCasuali);
 
         //1.2
-        ArrayList<Integer> oldReversList = new ArrayList<>();
+        ArrayList<Integer> oldReversList;
         oldReversList = newList(numCasuali);
         System.out.println("Lista con i vecchi valore e gli stessi ma invertiti " + oldReversList);
 
