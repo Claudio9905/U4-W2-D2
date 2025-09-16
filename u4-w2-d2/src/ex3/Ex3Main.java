@@ -72,7 +72,7 @@ public class Ex3Main {
                     System.out.println("Attenzione, inserire il comando giusto");
             }
 
-        }while (scelta != 0);
+        }while(scelta != 0);
 
     }
 }
