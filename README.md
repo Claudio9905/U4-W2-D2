@@ -1,2 +1,1 @@
-# U4-W2-D2
-
+Esercizi sull'uso delle Collezioni di dati (List,Set,Map) in Java.
